@@ -8,7 +8,7 @@
     console.log("V");
     console.log("E");
 }
-// some()
+//some()
 
 // function addTwonumbers(num1, num2){
 
@@ -34,18 +34,18 @@
 
 
 
-function calculatePrice(...val){
+// function calculatePrice(...val){
        
-      return val;
+//       return val;
 
-}
+// }
 //console.log(calculatePrice(100, 200, 300, 400))
 
 
 const object = {
 
     name: "riju",
-    phone : 018649544236,
+    phone : 0171554964,
     email : "rijuagmed@gmail.com",
 }
 
@@ -53,4 +53,8 @@ function func(myobject){
     console.log(`user name is ${object.name} and phone number is ${object.phone}`)
 
 }
+
+
+func(object)
+
 
