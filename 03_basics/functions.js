@@ -25,9 +25,32 @@
 // const result = addTwonumbers(2,3);
 // // console.log("Result:",result);
 
-function userLogin(userName){
+// function userLogin(userName){
 
-    return `${userName}, just logged in`;
+//     return `${userName}, just logged in`;
+// }
+
+// console.log(userLogin("Rizve"));
+
+
+
+function calculatePrice(...val){
+       
+      return val;
+
+}
+//console.log(calculatePrice(100, 200, 300, 400))
+
+
+const object = {
+
+    name: "riju",
+    phone : 018649544236,
+    email : "rijuagmed@gmail.com",
 }
 
-console.log(userLogin("Rizve"));
+function func(myobject){
+    console.log(`user name is ${object.name} and phone number is ${object.phone}`)
+
+}
+
