@@ -36,11 +36,17 @@
     
 // }
 
-for (let index = 0; index <= 20; index++) {
-    if(index == 7){
-        console.log("7 is detected")
-        continue
-    }
-    console.log(`value of : ${index}`)
+// for (let index = 0; index <= 20; index++) {
+//     if(index == 7){
+//         console.log("7 is detected")
+//         continue
+//     }
+//     console.log(`value of : ${index}`)
+    
+// }
+
+for (let j = 1; j <=20; j++) {
+    const element = j;
+    console.log(element);
     
 }
