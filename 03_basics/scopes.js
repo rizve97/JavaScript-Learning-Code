@@ -41,10 +41,10 @@
 
 //++++++++++++++++++++ Interesting+++++++++++++++++++++++++++++
 
-console.log(addval(5))
-function addval(num){
-    return num + 1
-}
+// console.log(addval(5))
+// function addval(num){
+//     return num + 1
+// }
 
 
 const valtwo = function(number){
